@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,146 +15,146 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link href="style/style.css" rel="stylesheet" />
     <title>Menu Order</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- header -->
 
     <header>
-        <!-- navbar -->
+      <!-- navbar -->
 
-        <div class="nav container">
-            <a href="#" class="logo"> <i class="fas fa-bowl-food"></i> Menu Order</a>
-            <i class="bx bx-cart-alt" id="cart-icon"></i>
-            <!-- cart -->
-            <div class="cart">
-                <h2 class="cart-title">Your Cart</h2>
-                <!-- content -->
-                <div class="cart-content"></div>
-                <!-- total -->
-                <div class="total">
-                    <div class="total-title">Total :</div>
-                    <div class="total-price">$0</div>
-                </div>
-                <!-- buy bottom -->
-                <button type="button" class="btn-buy" onclick="openPopup()">Buy Now</button>
-                <!-- cart close   -->
-                <i class="bx bx-x" id="close-cart"></i>
-            </div>
+      <div class="nav container">
+        <a href="#" class="logo"> <i class="fas fa-bowl-food"></i> Menu Order</a>
+        <i class="bx bx-cart-alt" id="cart-icon"></i>
+        <!-- cart -->
+        <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <!-- content -->
+          <div class="cart-content"></div>
+          <!-- total -->
+          <div class="total">
+            <div class="total-title">Total :</div>
+            <div class="total-price">$0</div>
+          </div>
+          <!-- buy bottom -->
+          <button type="button" class="btn-buy" onclick="openPopup()">Buy Now</button>
+          <!-- cart close   -->
+          <i class="bx bx-x" id="close-cart"></i>
         </div>
+      </div>
     </header>
     <!-- shop -->
     <section class="shop container">
-        <div class="popup" id="popup">
-            <img class="img-ok" src="img/ok-gb3e48dbed_1280.png" alt="" />
-            <h2>Order Successfully!!</h2>
-            <p>Your food already delivered</p>
-            <button type="button" onclick="closePopup()">OK</button>
-        </div>
-        <h2 class="section-title"><span style="color: #65c18c">Food</span> Menu</h2>
-        <!-- content -->
-        <div class="shop-content">
-            <!-- box1 -->
+      <div class="popup" id="popup">
+        <img class="img-ok" src="img/ok-gb3e48dbed_1280.png" alt="" />
+        <h2>Order Successfully!!</h2>
+        <p>Your food already delivered</p>
+        <button type="button" onclick="closePopup()">OK</button>
+      </div>
+      <h2 class="section-title"><span style="color: #65c18c">Food</span> Menu</h2>
+      <!-- content -->
+      <div class="shop-content">
+        <!-- box1 -->
 
-            <!-- !!!!!!!!!!!!! -->
+        <!-- !!!!!!!!!!!!! -->
 
-            <div class="product-box">
-                <img src="img/grilled-chicken-g92597184f_1280.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Tasty Grilled Chicken With Rice and Vegetable</h2>
-                <span class="price">$6</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <!-- box2 -->
-            <div class="product-box">
-                <img src="img/mie-goreng-g95255a2bd_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Tasty Fried Noodles</h2>
-                <span class="price">$2.5</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <!-- box3 -->
-            <div class="product-box">
-                <img src="img/rice-g665f12afa_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Tasty Grilled Chicken With Coconut Rice</h2>
-                <span class="price">$3</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/risoles-g056a4980f_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Risoles</h2>
-                <span class="price">$2</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/nasigoren-g8f05afa77_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Fried Rice</h2>
-                <span class="price">$4</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/lumpia-g3f389c87f_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Fried Lumpia</h2>
-                <span class="price">$1</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/rice-g16f98523e_1920.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Coconut Rice</h2>
-                <span class="price">$2.5</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/s-img-4.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Fruits Drink</h2>
-                <span class="price">$2</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/g-6.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Fried Chicken</h2>
-                <span class="price">$3</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
-            <div class="product-box">
-                <img src="img/p-6.jpg" alt="" class="product-img" />
-                <h2 class="product-title">Ice Cream</h2>
-                <span class="price">$3</span>
-                <i class="bx bx-shopping-bag add-cart"></i>
-            </div>
+        <div class="product-box">
+          <img src="img/grilled-chicken-g92597184f_1280.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Tasty Grilled Chicken With Rice and Vegetable</h2>
+          <span class="price">$6</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
         </div>
+        <!-- box2 -->
+        <div class="product-box">
+          <img src="img/mie-goreng-g95255a2bd_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Tasty Fried Noodles</h2>
+          <span class="price">$2.5</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <!-- box3 -->
+        <div class="product-box">
+          <img src="img/rice-g665f12afa_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Tasty Grilled Chicken With Coconut Rice</h2>
+          <span class="price">$3</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/risoles-g056a4980f_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Risoles</h2>
+          <span class="price">$2</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/nasigoren-g8f05afa77_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Fried Rice</h2>
+          <span class="price">$4</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/lumpia-g3f389c87f_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Fried Lumpia</h2>
+          <span class="price">$1</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/rice-g16f98523e_1920.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Coconut Rice</h2>
+          <span class="price">$2.5</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/s-img-4.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Fruits Drink</h2>
+          <span class="price">$2</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/g-6.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Fried Chicken</h2>
+          <span class="price">$3</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+        <div class="product-box">
+          <img src="img/p-6.jpg" alt="" class="product-img" />
+          <h2 class="product-title">Ice Cream</h2>
+          <span class="price">$3</span>
+          <i class="bx bx-shopping-bag add-cart"></i>
+        </div>
+      </div>
     </section>
     <footer>
-        <ul class="icons">
-            <li>
-                <a href="#">
-                    <ion-icon name="logo-whatsapp"></ion-icon>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </a>
-            </li>
-        </ul>
-        <ul class="menu">
-            <li><a href="https://luth0910.github.io/webrestaurantdummy/">Home</a></li>
-            <li><a href="https://luth0910.github.io/webrestaurantdummy/">About</a></li>
-            <li><a href="#">Partners</a></li>
-            <li><a href="#">Specialties</a></li>
-            <li><a href="https://luth0910.github.io/webrestaurantdummy/">Contact Us</a></li>
-        </ul>
-        <div class="footer-copyright">
-            <p>Made By Luthfi</p>
-        </div>
+      <ul class="icons">
+        <li>
+          <a href="#">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="https://luth0910.github.io/webrestaurantdummy/">Home</a></li>
+        <li><a href="https://luth0910.github.io/webrestaurantdummy/">About</a></li>
+        <li><a href="#">Partners</a></li>
+        <li><a href="#">Specialties</a></li>
+        <li><a href="https://luth0910.github.io/webrestaurantdummy/">Contact Us</a></li>
+      </ul>
+      <div class="footer-copyright">
+        <p>Made By Luthfi</p>
+      </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -164,16 +163,15 @@
     <script src="script/script.js"></script>
 
     <script>
-        let popup = document.getElementById("popup");
+      let popup = document.getElementById("popup");
 
-        function openPopup() {
-            popup.classList.add("open-popup");
-        }
+      function openPopup() {
+        popup.classList.add("open-popup");
+      }
 
-        function closePopup() {
-            popup.classList.remove("open-popup");
-        }
+      function closePopup() {
+        popup.classList.remove("open-popup");
+      }
     </script>
-</body>
-
+  </body>
 </html>
